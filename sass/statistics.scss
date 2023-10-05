@@ -1,0 +1,84 @@
+
+%flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-change {
+    display: flex;
+    align-items: center;
+}
+
+%title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff
+}
+
+%subtitles {
+    font-size: 17px;
+    color: #FFFFFFB2;
+    opacity: .7;
+}
+
+%btn__global {
+    padding: 12px 20px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.statistics {
+    padding: 100px 70px;
+    @extend %flex-center;
+}
+
+.statistics__cards {
+    max-width: 1300px;
+    @extend %flex-center;
+    gap: 15px;
+}
+
+.statistics__card {
+    padding: 50px;
+    background-color: #000000;
+    border-radius: 32px;
+    @extend %flex-column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 420px;
+    width: 100%;
+}
+
+.card1 {
+    min-height: 360px;
+}
+
+.card2 {
+    min-height: 390px;
+}
+
+.statistics__card-title {
+    font-size: 36px;
+    color: #fff;
+    max-width: 313px;
+}
+
+.statistics__card-subtitle {
+    @extend %subtitles;
+}
+
+.statistics__card-star {
+    color: #FCFF51;
+    font-size: 22px;
+}

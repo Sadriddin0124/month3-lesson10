@@ -1,0 +1,57 @@
+.statistics__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.statistics__cards, .statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics__card-subtitle {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.6980392157);
+  opacity: 0.7;
+}
+
+.statistics {
+  padding: 100px 70px;
+}
+
+.statistics__cards {
+  max-width: 1300px;
+  gap: 15px;
+}
+
+.statistics__card {
+  padding: 50px;
+  background-color: #000000;
+  border-radius: 32px;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.card1 {
+  min-height: 360px;
+}
+
+.card2 {
+  min-height: 390px;
+}
+
+.statistics__card-title {
+  font-size: 36px;
+  color: #fff;
+  max-width: 313px;
+}
+
+.statistics__card-star {
+  color: #FCFF51;
+  font-size: 22px;
+}/*# sourceMappingURL=statistics.css.map */

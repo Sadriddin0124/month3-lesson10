@@ -1,0 +1,82 @@
+.email__forms, .email__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email__card {
+  display: flex;
+  align-items: center;
+}
+
+.email__title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.email__forms-btn {
+  padding: 12px 20px;
+  background-color: #118DA8;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.email {
+  padding: 100px 70px;
+  width: 100%;
+}
+
+.email__card {
+  max-width: 1300px;
+  padding: 70px;
+  background: #000;
+  width: 100%;
+  border-radius: 32px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.email__text {
+  align-items: flex-start;
+}
+
+.email___desc {
+  font-size: 17px;
+  color: #118DA8;
+}
+
+.email__title {
+  max-width: 350px;
+}
+
+.email__forms {
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.email__forms-input {
+  padding: 26px 17px;
+  background-color: #191919;
+  width: 522px;
+  border: none;
+  border-radius: 6px;
+}
+
+::-moz-placeholder {
+  color: rgba(250, 250, 250, 0.7);
+  font-size: 24px;
+}
+
+::placeholder {
+  color: rgba(250, 250, 250, 0.7);
+  font-size: 24px;
+}/*# sourceMappingURL=email.css.map */

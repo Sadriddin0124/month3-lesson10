@@ -1,0 +1,139 @@
+@import url('./episodes.css');
+@import url('./host.css');
+@import url('./email.css');
+@import url('./statistics.css');
+@import url('./footer.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'dmsans';
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: 'dmsans';
+    src: url('../DM_Sans/static/DMSans_36pt-Regular.ttf'), format(trutype);
+}
+
+
+%flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-change {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    border: none;
+}
+
+.container {
+    background-color: #191919;
+}
+
+.navbar {
+    padding: 50px;
+    width: 100%;
+    @extend %flex-change;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    width: 160px;
+    height: 33px;
+}
+
+.nav__list{
+    @extend %flex-center ;
+    gap: 40px;
+}
+
+.nav__link {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.bars div {
+    width: 30px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 6px;
+}
+
+.active {
+    color: #118DA8;
+}
+
+.header {
+    padding: 100px 70px;
+    width: 100%;
+    @extend %flex-center;
+}
+
+.header__img {
+    max-width: 650px;
+    img {
+        width: 100%;
+    }
+}
+
+.header__text {
+    @extend %flex-column;
+    align-items: flex-start;
+    gap: 74px;
+}
+
+.next {
+    border-bottom: 4px solid #118DA8;
+}
+
+.bold {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.header__items {
+    @extend %flex-center;
+    gap: 60px;
+}
+
+.header__title {
+    max-width: 526px;
+    font-size: 70px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.header__links {
+    @extend %flex-column;
+    align-items: flex-start;
+    gap: 16px;
+    color: #fff;
+}
+
+.header__links-text {
+    font-size: 15px
+}
+
+.header__links-logo {
+    @extend %flex-center;
+    gap: 17px;
+}
+
