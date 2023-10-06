@@ -43,6 +43,10 @@ button {
   background-color: #191919;
 }
 
+.bars div {
+  display: none;
+}
+
 .navbar {
   padding: 50px;
   width: 100%;
