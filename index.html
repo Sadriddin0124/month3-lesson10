@@ -6,26 +6,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="./sass/styles.css">
     <link rel="stylesheet" href="./sass/media.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar">
+    <div class="container-fluid">
+        <nav class="navbar p-4 ">
             <div class="nav__logo">
                 <img src="./images/logo.png" alt="logo">
             </div>
             <ul class="nav__list">
                 <li>
-                    <a class="nav__link active" href="#">Home</a>
+                    <a class="info navbar-brand active" href="#">Home</a>
                 </li>
                 <li>
-                    <a class="nav__link" href="#">Episodes</a>
+                    <a class="info navbar-brand" href="#">Episodes</a>
                 </li>
                 <li>
-                    <a class="nav__link" href="#">About</a>
+                    <a class="info navbar-brand" href="#">About</a>
                 </li>
                 <li>
-                    <a class="nav__link" href="#">Contact</a>
+                    <a class="info navbar-brand" href="#">Contact</a>
                 </li>
             </ul>
             <div class="bars">
@@ -71,7 +72,7 @@
                 <h1 class="episode__title">
                     Latest episodes
                 </h1>
-                <button class="btn__global">View all episodes</button>
+                <button class=" btn btn-info btn__global">View all episodes</button>
             </div>
             <div class="episodes__card">
                 <div class="episodes__card-img">
@@ -82,7 +83,7 @@
                     <p class="episodes__card-num">Episode 3</p>
                     <h1 class="episodes__card-title">Should you get outboard audio gear?</h1>
                     <p class="episodes__card-subtitle">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
-                    <button class="btn__global">View Episode Details</button>
+                    <button class="btn btn btn-info btn__global">View Episode Details</button>
                 </div>
             </div>
             <div class="episodes__card">
@@ -94,7 +95,7 @@
                     <p class="episodes__card-num">Episode 2</p>
                     <h1 class="episodes__card-title">Mic tricks to take you to the next level</h1>
                     <p class="episodes__card-subtitle">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
-                    <button class="btn__global">View Episode Details</button>
+                    <button class="btn btn-info btn__global">View Episode Details</button>
                 </div>
             </div>
             <div class="episodes__card">
@@ -106,7 +107,7 @@
                     <p class="episodes__card-num">Episode 1</p>
                     <h1 class="episodes__card-title">The best microphone under $200</h1>
                     <p class="episodes__card-subtitle">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
-                    <button class="btn__global">View Episode Details</button>
+                    <button class=" btn btn-info btn__global">View Episode Details</button>
                 </div>
             </div>
         </section>
@@ -133,7 +134,7 @@
                 <div class="email__forms">
                     <input type="text" class="email__forms-input" placeholder="Name">
                     <input type="email" class="email__forms-input" placeholder="Email">
-                    <button class="email__forms-btn">Submit</button>
+                    <button class="email__forms-btn btn btn-info">Submit</button>
                 </div>
             </div>
         </section>
